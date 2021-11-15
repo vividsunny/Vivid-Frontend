@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer(){
     return(
-        <footer className="site-footer">
+        <footer id="footer" className="site-footer">
             <div className="iconanimate-div">
                     <div className="iconanimate-leftpart">
                         <span className="codeicon-animate"><img src={require('../images/code-wanimate.png').default} alt="VIVID WEB SOLUTIONS" /></span>
