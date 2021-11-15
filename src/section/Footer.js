@@ -39,6 +39,27 @@ function Footer(){
                         </div>
                         <div className="footer-form">
                             <h2>Send us Message</h2>
+                            <div className="foot-formdiv">
+                                <form>
+                                    <div className="form-group">
+                                        <input type="text" placeholder="Your Name" className="form-control" />
+                                    </div>
+                                    <div className="row">
+                                        <div className="form-group">
+                                            <input type="text" placeholder="Phone" className="form-control" />
+                                        </div>
+                                        <div className="form-group">
+                                            <input type="email" placeholder="Email" className="form-control" />
+                                        </div>
+                                    </div>
+                                    <div className="form-group">
+                                        <textarea placeholder="massage" className="form-control"></textarea>
+                                    </div>
+                                    <div className="form-group">
+                                        <input type="submit" className="btn-defult" value="Submit" />
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>

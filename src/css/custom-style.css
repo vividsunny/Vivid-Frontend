@@ -133,14 +133,14 @@ h3{ font-size: 24px; font-weight: 700; line-height: 32px;}
 .expertise-list{position: relative;}
 .expertise-list ul{display: flex; flex-wrap: wrap; justify-content: center;}
 .expertise-list ul li .expertise-box{border-radius: 10px; margin: 25px 18px; background-color: var(--white-color); box-shadow: 0 4px 10px rgba(148, 190, 70, 0.2); display: flex; align-items: center; justify-content: center; width: 200px; height: 100px; position: relative; top: 0; transition: all 0.2s ease;}
-.expertise-list ul li:nth-child(2) .expertise-box{box-shadow: 0 4px 10px rgba(0, 116, 154, 0.2);}
-.expertise-list ul li:nth-child(3) .expertise-box{box-shadow: 0 4px 10px rgba(221, 27, 22, 0.2);}
-.expertise-list ul li:nth-child(4) .expertise-box{box-shadow: 0 4px 10px rgba(83, 158, 67, 0.2);}
-.expertise-list ul li:nth-child(5) .expertise-box{box-shadow: 0 4px 10px rgba(97, 218, 251, 0.2);}
-.expertise-list ul li:nth-child(6) .expertise-box{box-shadow: 0 4px 10px rgba(231, 68, 48, 0.2);}
-.expertise-list ul li:nth-child(7) .expertise-box{box-shadow: 0 4px 10px rgba(97, 129, 182, 0.2);}
-.expertise-list ul li:nth-child(8) .expertise-box{box-shadow: 0 4px 10px rgba(245, 130, 51, 0.2);}
-.expertise-list ul li:nth-child(9) .expertise-box{box-shadow: 0 4px 10px rgba(207, 100, 154, 0.2);}
+.expertise-list ul li.wordpress-li .expertise-box{box-shadow: 0 4px 10px rgba(0, 116, 154, 0.2);}
+.expertise-list ul li.angularjs-li .expertise-box{box-shadow: 0 4px 10px rgba(221, 27, 22, 0.2);}
+.expertise-list ul li.nodejs-li .expertise-box{box-shadow: 0 4px 10px rgba(83, 158, 67, 0.2);}
+.expertise-list ul li.reactjs-li .expertise-box{box-shadow: 0 4px 10px rgba(97, 218, 251, 0.2);}
+.expertise-list ul li.laravel-li .expertise-box{box-shadow: 0 4px 10px rgba(231, 68, 48, 0.2);}
+.expertise-list ul li.php-li .expertise-box{box-shadow: 0 4px 10px rgba(97, 129, 182, 0.2);}
+.expertise-list ul li.htmlcssjs-li .expertise-box{box-shadow: 0 4px 10px rgba(245, 130, 51, 0.2);}
+.expertise-list ul li.sass-li .expertise-box{box-shadow: 0 4px 10px rgba(207, 100, 154, 0.2);}
 .expertise-list ul li:hover .expertise-box{top: -15px;}
 
 /* Services Section CSS */
@@ -270,6 +270,17 @@ h3{ font-size: 24px; font-weight: 700; line-height: 32px;}
 .site-footer .iconanimate-rightpart .wordpressicon-animate { top: 30%;  right: 15%;}
 .site-footer .iconanimate-rightpart .codeicon-animate { bottom: 16%;  right: 16%;}
 .site-footer .iconanimate-rightpart .psicon-animate { top: 15%;}
+.foot-formdiv{}
+.foot-formdiv .row{margin: 0 -15px;}
+.foot-formdiv .row .form-group{padding: 0 15px; float: left; width: 50%;}
+.foot-formdiv .row:after{display: table; content: ""; clear: both;}
+.form-control{font-size: 16px; padding: 12px 0; color: var(--grey-color); line-height: 1; border: none; width: 100%; margin-bottom: 20px; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
+.form-control::-webkit-input-placeholder { text-transform: uppercase;  color: var(--grey-color);}
+.form-control::-moz-placeholder { color: var(--grey-color);text-transform: uppercase;}
+.form-control:-ms-input-placeholder {  color: var(--grey-color); text-transform: uppercase;}
+.form-control:-moz-placeholder {  color: var(--grey-color); text-transform: uppercase;}
+textarea.form-control{height: 100px;}
+.btn-defult{padding: 12px 25px; cursor: pointer; border: none; color: var(--white-color); font-weight: 500; text-transform: uppercase; border-radius: 30px; font-size: 16px; line-height: 1; background: rgb(252,77,53); background: -moz-linear-gradient(left,  rgba(252,77,53,1) 0%, rgba(225,41,110,1) 100%);  background: -webkit-linear-gradient(left,  rgba(252,77,53,1) 0%,rgba(225,41,110,1) 100%);  background: linear-gradient(to right,  rgba(252,77,53,1) 0%,rgba(225,41,110,1) 100%);  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc4d35', endColorstr='#e1296e',GradientType=1 );}
 @keyframes gelatine {
   from, to { transform: scale(1, 1); }
   25% { transform: scale(0.9, 1.1); }
