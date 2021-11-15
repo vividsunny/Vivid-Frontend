@@ -4,7 +4,7 @@ function Expertise(){
     return(
         <section className="expertise-section p-70">
             <div className="container">
-                <div className="page-title" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="600">Our Expertise</div>
+                <div className="page-title" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="600">Our Expertise ssss</div>
 
                 <div className="expertise-list">
                     <ul>
