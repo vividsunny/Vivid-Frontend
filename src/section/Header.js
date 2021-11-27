@@ -24,14 +24,13 @@ function Header(){
                                 <span className="line"></span>
                             </div>
                             <ul>
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/about">Who we are</Link></li>
-                            <li><Link to="/service">Service</Link>
+                                <li><Link to="/about">About Us</Link></li>
+                                <li><Link to="/service">Service</Link>
                                     <ul>
-                                        <li><a href="#">Web Development</a></li>
-                                        <li><a href="#">Web Development</a></li>
-                                        <li><a href="#">Web Development</a></li>
-                                        <li><a href="#">Web Development</a></li>
+                                        <li><Link to="yatin">Web Development</Link></li>
+                                        <li><Link to="#">Web Development</Link></li>
+                                        <li><Link to="#">Web Development</Link></li>
+                                        <li><Link to="#">Web Development</Link></li>
                                     </ul>
                                 </li>
                                 <li><Link to="/portfolio">Portfolio</Link></li>

@@ -15,6 +15,7 @@ import About from './pages/About';
 import Service from './pages/Service';
 import Portfolio from './pages/Portfolio';
 import Career from './pages/Career';
+import Contact from './pages/Contact';
 import Footer from "./section/Footer";
 
 import {
@@ -27,7 +28,7 @@ import {
 
 function App() {
   return (
-    <div>
+    <div className="page-wrapper">
       <Router>
         <Header />
           <Routes>
@@ -36,6 +37,7 @@ function App() {
             <Route path="/service" element={<Service />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/career" element={<Career />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         <Footer />
       </Router>

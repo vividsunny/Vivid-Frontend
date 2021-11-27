@@ -65,6 +65,20 @@ function Portfolio(){
                                 </div>
                             </div>
                         </a>
+                    </div>                    
+                    <div className="grid-item grid-item-width2">
+                        <a href="#">
+                            <div className="portfolio-box">
+                                <img src={require('../images/west-coast.jpg').default} alt="VIVID WEB SOLUTIONS" />
+                                <div className="portfolio-icon">
+                                    <img src={require('../images/port-wordpress-icon.png').default} alt="VIVID WEB SOLUTIONS" />
+                                </div>
+                                <div className="portfolio-overlay">
+                                    <h3>West coast Natural Pools</h3>
+                                    <span>Muffin (betheme), Wordpress</span>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div className="grid-item">
                     <a href="#">
@@ -76,34 +90,6 @@ function Portfolio(){
                                 <div className="portfolio-overlay">
                                     <h3>Treeline Collective</h3>
                                     <span>Muffin (betheme), Woocommerce</span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="grid-item">
-                        <a href="#">
-                            <div className="portfolio-box">
-                                <img src={require('../images/hero-banner.jpg').default} alt="VIVID WEB SOLUTIONS" />
-                                <div className="portfolio-icon">
-                                    <img src={require('../images/port-wordpress-icon.png').default} alt="VIVID WEB SOLUTIONS" />
-                                </div>
-                                <div className="portfolio-overlay">
-                                    <h3>Aura Dione </h3>
-                                    <span>Youtube Shoot</span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="grid-item">
-                    <a href="#">
-                            <div className="portfolio-box">
-                                <img src={require('../images/west-coast.jpg').default} alt="VIVID WEB SOLUTIONS" />
-                                <div className="portfolio-icon">
-                                    <img src={require('../images/port-wordpress-icon.png').default} alt="VIVID WEB SOLUTIONS" />
-                                </div>
-                                <div className="portfolio-overlay">
-                                    <h3>West coast Natural Pools</h3>
-                                    <span>Muffin (betheme), Wordpress</span>
                                 </div>
                             </div>
                         </a>
