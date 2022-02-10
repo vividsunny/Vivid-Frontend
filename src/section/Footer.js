@@ -46,7 +46,7 @@ function Footer(){
                             <span><img src={require('../images/f-pin.png').default} alt="VIVID WEB SOLUTIONS" /></span> 
                             <div className="comp-info-text">
                                 <strong>Office location</strong>
-                                Shiven square business hub, pal, Surat
+                                Shiven square business hub, Pal, Surat
                             </div>
                         </div>
                     </div>                            
@@ -62,7 +62,7 @@ function Footer(){
                 </div>                              
             </div>
             <div className="copyright-text">
-                <p>&copy;2021 All rights reserved Vivid Web Solutions</p>
+                <p>&copy;2022 All rights reserved Vivid Web Solutions</p>
                 <ul className="footer-social-ul">
                     <li>
                         <a href="">
